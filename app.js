@@ -49,7 +49,7 @@ seed();
 
 //Home
 app.get('/', function(req, res){
-  res.send('home');
+  res.render('home');
 });
 
 //Index
